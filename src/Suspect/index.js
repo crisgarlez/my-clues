@@ -1,24 +1,27 @@
 import React from "react";
 import {Box} from "../Box";
 
-function Suspect({suspect}) {
-
-  const [discarded, setDiscarded] = React.useState(false)
-
-  return(
+function Suspect(props) {
+return(
     <div className='flex items-center justify-between'>
       <div className='w-6/12'>
-        <button className={`${discarded ? "line-through text-red-500" : ""}`} onClick={() => setDiscarded(!discarded)}>
-          {suspect}
+        <button className={`${props.suspect.marked ? "line-through text-red-500" : ""}`} onClick={() => props.toggleSuspect(props.suspect.id)}>
+          {props.suspect.name}
         </button>
       </div>
       <div className='flex items-center justify-between w-6/12 text-center'>
-        <div className='w-8 h-8 border bg-red-500'><Box/></div>
-        <div className='w-8 h-8 border bg-gray-100'><Box/></div>
-        <div className='w-8 h-8 border bg-fuchsia-500'><Box/></div>
-        <div className='w-8 h-8 border bg-green-500'><Box/></div>
-        <div className='w-8 h-8 border bg-blue-500'><Box/></div>
-        <div className='w-8 h-8 border bg-yellow-500'><Box/></div>
+        {props.suspect.boxes.map((box) => {
+          const id = `${props.suspect.id}${box.id}`;
+          return(
+            <Box
+              key={id}
+              parentId={props.suspect.id}
+              toggleBox={props.toggleSuspectBox}
+              id={box.id}
+              boxValue={box.value}
+            />
+          );
+        })}
       </div>
     </div>
   );

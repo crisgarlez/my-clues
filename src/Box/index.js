@@ -1,13 +1,13 @@
 import React from "react";
 
-function Box() {
-
-  const [marked, setMarked] = React.useState(false)
-
+function Box(props) {
   return(
-      <button className='' onClick={() => {setMarked(!marked)}}>
-        {(marked) ? <span>X</span> : <span>&nbsp;</span>}
+    <div className='w-8 h-8 border bg-gray-400'>
+      <button className='' onClick={() => {props.toggleBox(props.parentId, props.id)}}>
+        {(props.boxValue) ? <span>X</span> : <span>&nbsp;</span>}
       </button>
+    </div>
+
   );
 }
 

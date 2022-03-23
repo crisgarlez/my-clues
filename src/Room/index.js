@@ -1,24 +1,27 @@
 import React from "react";
 import {Box} from "../Box";
 
-function Room({room}) {
-
-  const [discarded, setDiscarded] = React.useState(false)
-
+function Room(props) {
   return(
     <div className='flex items-center justify-between'>
       <div className='w-6/12'>
-        <button className={`${discarded ? "line-through text-red-500" : ""}`} onClick={() => setDiscarded(!discarded)}>
-          {room}
+        <button className={`${props.room.marked ? "line-through text-red-500" : ""}`} onClick={() => props.toggleRoom(props.room.id)}>
+          {props.room.name}
         </button>
       </div>
       <div className='flex items-center justify-between w-6/12 text-center'>
-        <div className='w-8 h-8 border bg-red-500'><Box/></div>
-        <div className='w-8 h-8 border bg-gray-100'><Box/></div>
-        <div className='w-8 h-8 border bg-fuchsia-500'><Box/></div>
-        <div className='w-8 h-8 border bg-green-500'><Box/></div>
-        <div className='w-8 h-8 border bg-blue-500'><Box/></div>
-        <div className='w-8 h-8 border bg-yellow-500'><Box/></div>
+        {props.room.boxes.map((box) => {
+          const id = `${props.room.id}${box.id}`;
+          return(
+            <Box
+              key={id}
+              parentId={props.room.id}
+              toggleBox={props.toggleRoomBox}
+              id={box.id}
+              boxValue={box.value}
+            />
+          );
+        })}
       </div>
     </div>
   );
