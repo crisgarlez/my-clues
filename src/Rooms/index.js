@@ -6,10 +6,12 @@ function Rooms(props) {
 
   return(
     <section className=''>
-      <header>
-        <h1>Habitaciones</h1>
+      <header className='pl-4 py-2 bg-white'>
+        <span className='text-xl font-normal font-sans'>
+          Habitaciones
+        </span>
       </header>
-      <div className='bg-gray-200'>
+      <div className='border-b border-b-gray-400'>
         {props.rooms.map(renderFunc)}
       </div>
     </section>

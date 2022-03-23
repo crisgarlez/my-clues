@@ -8,12 +8,12 @@ function useRooms() {
       name: "Estudio",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -21,12 +21,12 @@ function useRooms() {
       name: "Patio",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -34,12 +34,12 @@ function useRooms() {
       name: "Baño",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -47,12 +47,12 @@ function useRooms() {
       name: "Cocina",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -60,12 +60,12 @@ function useRooms() {
       name: "Garaje",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -73,12 +73,12 @@ function useRooms() {
       name: "Comedor",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -86,12 +86,12 @@ function useRooms() {
       name: "Sala de juegos",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -99,12 +99,12 @@ function useRooms() {
       name: "Habitación",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -112,12 +112,12 @@ function useRooms() {
       name: "Sala",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
   ];
@@ -126,7 +126,7 @@ function useRooms() {
     item: rooms,
     saveItem: saveRooms,
     error,
-  } = useLocalStorage('ROOMS_V1', defaultRooms);
+  } = useLocalStorage('ROOMS_V1.0.2', defaultRooms);
 
   const toggleRoom = (id) => {
     const roomIndex = rooms.findIndex(room => room.id === id);

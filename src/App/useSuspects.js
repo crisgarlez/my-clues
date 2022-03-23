@@ -8,12 +8,12 @@ function useSuspects() {
       name: "Escarlata",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -21,12 +21,12 @@ function useSuspects() {
       name: "Blanco",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -34,12 +34,12 @@ function useSuspects() {
       name: "Moradillo",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -47,12 +47,12 @@ function useSuspects() {
       name: "Verdi",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -60,12 +60,12 @@ function useSuspects() {
       name: "Azulino",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
     {
@@ -73,12 +73,12 @@ function useSuspects() {
       name: "Mostaza",
       marked: false,
       boxes: [
-        {id: 'P1', value: false},
-        {id: 'P2', value: false},
-        {id: 'P3', value: false},
-        {id: 'P4', value: false},
-        {id: 'P5', value: false},
-        {id: 'P6', value: false},
+        {id: 'P1', value: false, color: "bg-red-400"},
+        {id: 'P2', value: false, color: "bg-gray-100"},
+        {id: 'P3', value: false, color: "bg-fuchsia-400"},
+        {id: 'P4', value: false, color: "bg-green-400"},
+        {id: 'P5', value: false, color: "bg-blue-400"},
+        {id: 'P6', value: false, color: "bg-yellow-400"},
       ]
     },
   ];
@@ -87,7 +87,7 @@ function useSuspects() {
     item: suspects,
     saveItem: saveSuspects,
     error,
-  } = useLocalStorage('SUSPECTS_V1', defaultSuspects);
+  } = useLocalStorage('SUSPECTS_V1.0.2', defaultSuspects);
 
   const toggleSuspect = (id) => {
     const suspectIndex = suspects.findIndex(suspect => suspect.id === id);

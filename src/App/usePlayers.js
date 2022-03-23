@@ -5,7 +5,7 @@ function usePlayers() {
     item: players,
     saveItem: savePlayers,
     error,
-  } = useLocalStorage('PLAYERS_V1', [
+  } = useLocalStorage('PLAYERS_V1.0.2', [
     {id: "P1", name: "P1", color: "bg-red-500"},
     {id: "P2", name: "P2", color: "bg-gray-100"},
     {id: "P3", name: "P3", color: "bg-fuchsia-500"},

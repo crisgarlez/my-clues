@@ -2,18 +2,18 @@ import React from 'react';
 
 // component
 import {Header} from "../Header";
-import {Players} from "../Players";
-import {Suspects} from "../Suspects";
-import {Weapons} from "../Weapons";
-import {Rooms} from "../Rooms";
-import {Suspect} from "../Suspect";
-import {Weapon} from "../Weapon";
-import {Room} from "../Room";
-import {Player} from "../Player";
 import { usePlayers } from './usePlayers';
+import {Players} from "../Players";
+import {Player} from "../Player";
 import { useSuspects } from './useSuspects';
+import {Suspects} from "../Suspects";
+import {Suspect} from "../Suspect";
 import { useWeapons } from './useWeapons';
+import {Weapons} from "../Weapons";
+import {Weapon} from "../Weapon";
 import { useRooms } from './useRooms';
+import {Rooms} from "../Rooms";
+import {Room} from "../Room";
 
 function App() {
 
@@ -77,6 +77,7 @@ function App() {
           />
         )}
       </Suspects>
+
       <Weapons
         weapons={weapons}
       >
@@ -89,6 +90,7 @@ function App() {
           />
         )}
       </Weapons>
+
       <Rooms
         rooms={rooms}
       >

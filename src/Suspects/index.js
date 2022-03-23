@@ -6,10 +6,12 @@ function Suspects(props) {
 
   return(
     <section className=''>
-      <header className=''>
-        <h1>Sospechosos</h1>
+      <header className='pl-4 py-2 bg-white'>
+        <span className='text-xl font-normal font-sans'>
+          Sospechosos
+        </span>
       </header>
-      <div className='bg-gray-200'>
+      <div className='border-b border-b-gray-400'>
         {props.suspects.map(renderFunc)}
       </div>
     </section>
