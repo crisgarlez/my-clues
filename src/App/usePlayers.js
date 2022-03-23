@@ -5,13 +5,13 @@ function usePlayers() {
     item: players,
     saveItem: savePlayers,
     error,
-  } = useLocalStorage('PLAYERS_V1.0.2', [
-    {id: "P1", name: "P1", color: "bg-red-500"},
-    {id: "P2", name: "P2", color: "bg-gray-100"},
-    {id: "P3", name: "P3", color: "bg-fuchsia-500"},
-    {id: "P4", name: "P4", color: "bg-green-500"},
-    {id: "P5", name: "P5", color: "bg-blue-500"},
-    {id: "P6", name: "P6", color: "bg-yellow-500"},
+  } = useLocalStorage('PLAYERS_V1.0.3', [
+    {id: "P1", name: "P1", color: "bg-red-400"},
+    {id: "P2", name: "P2", color: "bg-yellow-400"},
+    {id: "P3", name: "P3", color: "bg-green-400"},
+    {id: "P4", name: "P4", color: "bg-blue-400"},
+    {id: "P5", name: "P5", color: "bg-fuchsia-400"},
+    {id: "P6", name: "P6", color: "bg-white"},
   ]);
 
   const modifyPlayer = (id, newName) => {

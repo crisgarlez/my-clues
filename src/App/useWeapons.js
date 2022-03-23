@@ -8,12 +8,12 @@ function useWeapons() {
       name: "Candelabro",
       marked: false,
       boxes: [
-        {id: 'P1', value: false, color: "bg-red-400"},
-        {id: 'P2', value: false, color: "bg-gray-100"},
-        {id: 'P3', value: false, color: "bg-fuchsia-400"},
-        {id: 'P4', value: false, color: "bg-green-400"},
-        {id: 'P5', value: false, color: "bg-blue-400"},
-        {id: 'P6', value: false, color: "bg-yellow-400"},
+        {id: 'P1', value: false, color: "bg-red-200"},
+        {id: 'P2', value: false, color: "bg-yellow-200"},
+        {id: 'P3', value: false, color: "bg-green-200"},
+        {id: 'P4', value: false, color: "bg-blue-200"},
+        {id: 'P5', value: false, color: "bg-fuchsia-200"},
+        {id: 'P6', value: false, color: "bg-white"},
       ]
     },
     {
@@ -21,12 +21,12 @@ function useWeapons() {
       name: "Daga",
       marked: false,
       boxes: [
-        {id: 'P1', value: false, color: "bg-red-400"},
-        {id: 'P2', value: false, color: "bg-gray-100"},
-        {id: 'P3', value: false, color: "bg-fuchsia-400"},
-        {id: 'P4', value: false, color: "bg-green-400"},
-        {id: 'P5', value: false, color: "bg-blue-400"},
-        {id: 'P6', value: false, color: "bg-yellow-400"},
+        {id: 'P1', value: false, color: "bg-red-200"},
+        {id: 'P2', value: false, color: "bg-yellow-200"},
+        {id: 'P3', value: false, color: "bg-green-200"},
+        {id: 'P4', value: false, color: "bg-blue-200"},
+        {id: 'P5', value: false, color: "bg-fuchsia-200"},
+        {id: 'P6', value: false, color: "bg-white"},
       ]
     },
     {
@@ -34,12 +34,12 @@ function useWeapons() {
       name: "Soga",
       marked: false,
       boxes: [
-        {id: 'P1', value: false, color: "bg-red-400"},
-        {id: 'P2', value: false, color: "bg-gray-100"},
-        {id: 'P3', value: false, color: "bg-fuchsia-400"},
-        {id: 'P4', value: false, color: "bg-green-400"},
-        {id: 'P5', value: false, color: "bg-blue-400"},
-        {id: 'P6', value: false, color: "bg-yellow-400"},
+        {id: 'P1', value: false, color: "bg-red-200"},
+        {id: 'P2', value: false, color: "bg-yellow-200"},
+        {id: 'P3', value: false, color: "bg-green-200"},
+        {id: 'P4', value: false, color: "bg-blue-200"},
+        {id: 'P5', value: false, color: "bg-fuchsia-200"},
+        {id: 'P6', value: false, color: "bg-white"},
       ]
     },
     {
@@ -47,12 +47,12 @@ function useWeapons() {
       name: "Revolver",
       marked: false,
       boxes: [
-        {id: 'P1', value: false, color: "bg-red-400"},
-        {id: 'P2', value: false, color: "bg-gray-100"},
-        {id: 'P3', value: false, color: "bg-fuchsia-400"},
-        {id: 'P4', value: false, color: "bg-green-400"},
-        {id: 'P5', value: false, color: "bg-blue-400"},
-        {id: 'P6', value: false, color: "bg-yellow-400"},
+        {id: 'P1', value: false, color: "bg-red-200"},
+        {id: 'P2', value: false, color: "bg-yellow-200"},
+        {id: 'P3', value: false, color: "bg-green-200"},
+        {id: 'P4', value: false, color: "bg-blue-200"},
+        {id: 'P5', value: false, color: "bg-fuchsia-200"},
+        {id: 'P6', value: false, color: "bg-white"},
       ]
     },
     {
@@ -60,12 +60,12 @@ function useWeapons() {
       name: "Tubería",
       marked: false,
       boxes: [
-        {id: 'P1', value: false, color: "bg-red-400"},
-        {id: 'P2', value: false, color: "bg-gray-100"},
-        {id: 'P3', value: false, color: "bg-fuchsia-400"},
-        {id: 'P4', value: false, color: "bg-green-400"},
-        {id: 'P5', value: false, color: "bg-blue-400"},
-        {id: 'P6', value: false, color: "bg-yellow-400"},
+        {id: 'P1', value: false, color: "bg-red-200"},
+        {id: 'P2', value: false, color: "bg-yellow-200"},
+        {id: 'P3', value: false, color: "bg-green-200"},
+        {id: 'P4', value: false, color: "bg-blue-200"},
+        {id: 'P5', value: false, color: "bg-fuchsia-200"},
+        {id: 'P6', value: false, color: "bg-white"},
       ]
     },
     {
@@ -73,12 +73,12 @@ function useWeapons() {
       name: "Llave Inglesa",
       marked: false,
       boxes: [
-        {id: 'P1', value: false, color: "bg-red-400"},
-        {id: 'P2', value: false, color: "bg-gray-100"},
-        {id: 'P3', value: false, color: "bg-fuchsia-400"},
-        {id: 'P4', value: false, color: "bg-green-400"},
-        {id: 'P5', value: false, color: "bg-blue-400"},
-        {id: 'P6', value: false, color: "bg-yellow-400"},
+        {id: 'P1', value: false, color: "bg-red-200"},
+        {id: 'P2', value: false, color: "bg-yellow-200"},
+        {id: 'P3', value: false, color: "bg-green-200"},
+        {id: 'P4', value: false, color: "bg-blue-200"},
+        {id: 'P5', value: false, color: "bg-fuchsia-200"},
+        {id: 'P6', value: false, color: "bg-white"},
       ]
     },
   ];
@@ -87,7 +87,7 @@ function useWeapons() {
     item: weapons,
     saveItem: saveWeapons,
     error,
-  } = useLocalStorage('WEAPONS_V1.0.2', defaultWeapons);
+  } = useLocalStorage('WEAPONS_V1.0.3', defaultWeapons);
 
   const toggleWeapon = (id) => {
     const weaponIndex = weapons.findIndex(weapon => weapon.id === id);
