@@ -5,7 +5,7 @@ function Players(props) {
   const renderFunc = props.children || props.render;
 
   return(
-    <section className=''>
+    <section className='sticky top-0'>
       <div className='border-b border-b-gray-400'>
         {/*Suspects*/}
         {/*Suspect*/}

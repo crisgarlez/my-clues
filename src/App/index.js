@@ -14,6 +14,7 @@ import {Weapon} from "../Weapon";
 import { useRooms } from './useRooms';
 import {Rooms} from "../Rooms";
 import {Room} from "../Room";
+import {Footer} from "../Footer";
 
 function App() {
 
@@ -103,6 +104,7 @@ function App() {
           />
         )}
       </Rooms>
+      <Footer/>
     </React.Fragment>
   );
 }
