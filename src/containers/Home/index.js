@@ -1,24 +1,24 @@
-import React from 'react';
-import { hot } from 'react-hot-loader/root';
+import React from "react";
 
-// component
-import {Header} from "../Header";
-import { usePlayers } from './usePlayers';
-import {Players} from "../Players";
-import {Player} from "../Player";
-import { useSuspects } from './useSuspects';
-import {Suspects} from "../Suspects";
-import {Suspect} from "../Suspect";
-import { useWeapons } from './useWeapons';
-import {Weapons} from "../Weapons";
-import {Weapon} from "../Weapon";
-import { useRooms } from './useRooms';
-import {Rooms} from "../Rooms";
-import {Room} from "../Room";
-import {Footer} from "../Footer";
+// hooks
+import {usePlayers} from "../../hooks/usePlayers";
+import {useSuspects} from "../../hooks/useSuspects";
+import {useWeapons} from "../../hooks/useWeapons";
+import {useRooms} from "../../hooks/useRooms";
 
-function App() {
+// components
+import {Header} from "../../components/Header";
+import {Players} from "../../components/Players";
+import {Player} from "../../components/Player";
+import {Suspects} from "../../components/Suspects";
+import {Suspect} from "../../components/Suspect";
+import {Weapons} from "../../components/Weapons";
+import {Weapon} from "../../components/Weapon";
+import {Rooms} from "../../components/Rooms";
+import {Room} from "../../components/Room";
+import {Footer} from "../../components/Footer";
 
+function Home() {
   const {
     players,
   } = usePlayers();
@@ -110,4 +110,4 @@ function App() {
   );
 }
 
-export default hot(App);
+export { Home };
