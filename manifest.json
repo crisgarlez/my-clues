@@ -3,7 +3,7 @@
   "name": "My Clues",
   "icons": [
     {
-      "src": "/assets/icon.png",
+      "src": "assets/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
