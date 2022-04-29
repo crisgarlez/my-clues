@@ -1,10 +1,10 @@
 {
   "short_name": "MY CLUES",
-  "name": "A Clue companion app",
+  "name": "My Clues",
   "icons": [
     {
-      "src": "assets/icon.png",
-      "sizes": "512x512",
+      "src": "/assets/icon.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
